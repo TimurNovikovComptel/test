@@ -1,6 +1,4 @@
 build:
-  image: golang
+  image: java:8
   commands:
-    - go get
-    - go build
-    - go test
+    - mvn install
